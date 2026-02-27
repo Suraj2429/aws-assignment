@@ -11,7 +11,7 @@ app.get("/", async (req, res) => {
   try {
     const response = await axios.get(`${BACKEND_URL}/api/message`);
     res.send(`
-      <h1>Hello Suraj</h1>
+      <h1>Hello Suraj Patil</h1>
       <p>${response.data.message}</p>
     `);
   } catch (error) {
